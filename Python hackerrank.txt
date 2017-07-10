@@ -1,0 +1,43 @@
+1. string = "Hello, World!"
+   print(string)
+
+2. n = int(raw_input())
+    if (n%2 != 0) or ((n%2 == 0) and (6<=n<=20)): 
+        print("Weird")
+    else:
+        if ((n%2 ==0) and (2<=n<=5)) or ((n%2 ==0) and (20<=n<=100)): 
+            print("Not Weird")
+
+3. a = int(raw_input())
+   b = int(raw_input())
+   print(a+b)
+   print(a-b)
+   print(a*b)
+
+4. a = float(raw_input())
+   b = int(raw_input())
+   print(a//b)
+   print(a/b)
+
+5. n = int(raw_input())
+   i = 0
+   while(i<n):
+     print(i*i)
+     i = i+1
+
+6.def is_leap(year):
+  
+    # Write your logic here
+    if ((year%4 == 0) and (year%100 ==0) and (year%400 ==0)):
+        leap = True
+    elif ((year%4 == 0) and (year%100 !=0)):
+        leap = True
+    else:
+        leap = False
+    return leap
+  year = int(raw_input())
+  print is_leap(year)
+
+7.
+  
+
