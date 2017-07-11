@@ -1,3 +1,4 @@
+# E Pattern
 result_str = ""
 for row in range(0,7):
 	for column in range(0,5):
