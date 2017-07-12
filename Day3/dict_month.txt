@@ -1,0 +1,1 @@
+dict = {'Mumbai':'Maharashtra', 'Pune':'Maharashtra', 'Jaipur':'Rajasthan', 'Raipur':'Chhattisgarh','Chennai':'Tamil Nadu'}

@@ -1,0 +1,14 @@
+print("select the choice of calculation: ")
+print("1. Addition")
+print("2. Substraction")
+print("3. Muliplication")
+print("4. Divison")
+print("5. Exit)
+
+n = int(raw_input())
+while(n!=0):
+n1 = float(raw_input("Enter the first number "))
+n2 = float(raw_input("Enter the second number "))	
+	if n == 1:
+		print("The sum of two number is: ", n1 + n2)
+	

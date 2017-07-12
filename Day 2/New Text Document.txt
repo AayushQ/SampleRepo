@@ -1,0 +1,12 @@
+age = float(raw_input())
+d = 1
+d_age = 0
+while(d < age):
+	if (d<=2): 
+		d_age = d_age + d*(10.5)
+		d = d + 1
+	else:
+		d_age = d_age + d*(4)
+		d = d + 1
+print(d_age)
+
