@@ -1,0 +1,16 @@
+INFO:root:select between 1 to 5
+INFO:root:select between 1 to 5
+DEBUG:root:check whether
+INFO:root:select between 1 to 5
+INFO:root:select between 1 to 5
+INFO:root:select between 1 to 5
+ERROR:root:Something went wrong
+INFO:root:select between 1 to 5
+INFO:root:select between 1 to 5
+2017-07-14 12:10:57,973 is when this event was logged
+2017-07-14 12:10:57,973 select between 1 to 5
+2017-07-14 12:11:02,193 subtract the two numbers
+2017-07-14 12:13:01,351 is when this event was logged
+2017-07-14 12:13:01,351 select between 1 to 5
+2017-07-14 12:13:05,351 Something went wrong
+2017-07-14 12:13:05,351 check whether
