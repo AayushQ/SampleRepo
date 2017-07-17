@@ -1,11 +1,38 @@
-import re, sys
-password = input("Enter the password ")
-y = list(password)
-l = len(y)
+"""
+9.Write a PYTHON program to check the validity of a password chosen by a user. To be considered valid, a password
+"""
+import re
+p= input("Input your password")
+def validate(s):
+	x = True
+	while x:  
+    		if (len(p)<6 or len(p)>12):
+        		break
+    		elif not re.search("[a-z]",p):
+        		break
+    		elif not re.search("[0-9]",p):
+       	 		break
+    		elif not re.search("[A-Z]",p):
+        		break
+    		elif not re.search("[$#@]",p):
+        		break
+   		elif re.search("\s",p):
+        		break
+    		else:
+        		print("Valid Password")
+        		x=False
+        		break
+	if x:
+    		print("Not a Valid Password")
 
-if(l > 6 and l < 16 and re.search(r'[A-Z]',y) and re.search(r'[a-z]',y) and re.search(r'[0-9]',y)):
-	print ("This is a valid password")
-else:
-	print ("Invalid password")
+def main():
+	cmd = ''
+	cmd = input('>')
+	while cmd!='quit':
+		password= cmd
+		validate(password)
+		cmd = input('>')
+main()
 
- 
+
+
