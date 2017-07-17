@@ -14,3 +14,5 @@ INFO:root:select between 1 to 5
 2017-07-14 12:13:01,351 select between 1 to 5
 2017-07-14 12:13:05,351 Something went wrong
 2017-07-14 12:13:05,351 check whether
+2017-07-14 13:20:37,835 is when this event was logged
+2017-07-14 13:20:37,835 select between 1 to 5
