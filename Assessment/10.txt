@@ -1,0 +1,10 @@
+"""
+10.Write a program to accept Date & Time in IST format and convert it to US format(EST).
+"""
+import pytz
+from datetime import datetime    
+timestamp = datetime.now()
+
+
+eastern_dt = datetime.fromtimestamp(timestamp, pytz.timezone('America/New_York'))
+print(eastern_dt.strftime('%a, %d %b %Y %H:%M:%S %z (%Z)'))
